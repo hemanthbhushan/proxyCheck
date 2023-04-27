@@ -1,0 +1,10 @@
+1 deploy the factory and token contract
+2 verify them using the script
+3 go to the factory proxy and verify it to become the proxy contract
+4 initialize the factory contract with token address and the owner address which whic will be the DEFAULT_ADMIN_ROLE and aslo admin ,now the owner can add new admin to different address
+
+
+factory contract:0x6Bb9Fd0dF52a43671c93481E841587327A236287
+token :0x4aD877A6A7AB6574d331D94d3Dd9D309643b479b
+proxy upgradble :0x87EfA355635150bce8dF794bfe4D732B7626A56f
+
