@@ -3,9 +3,9 @@ const { ethers, upgrades } = require("hardhat");
 const PROXY = "0x5F552d94efD5066e93269A61b38eFb8374aA6dc9";
 
 async function main() {
- const FactoryV3 = await ethers.getContractFactory("FactoryContractV3");
+ const FactoryV5 = await ethers.getContractFactory("FactoryContractV5");
  console.log("Upgrading Factory...");
- await upgrades.upgradeProxy(PROXY, FactoryV3);
+ await upgrades.upgradeProxy(PROXY, FactoryV5);
  console.log("Factory upgraded successfully to FactoryV2");
 }
 

@@ -2,9 +2,9 @@ const Hre = require("hardhat");
 async function main() {
   await Hre.run("verify:verify", {
     //Deployed contract Exchange address
-    address: "0x02eAAca834da234C5B9d1055195cF6e5F33ddDA5",
+    address: "0xC9A0f03060a3DbC3919a7C1f076b41b36A6E084a",
     //Path of your main contract.
-    contract: "contracts/FactoryContractV3.sol:FactoryContractV3",
+    contract: "contracts/FactoryContractV5.sol:FactoryContractV5",
   });
 
   await Hre.run("verify:verify", {
